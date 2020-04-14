@@ -73,7 +73,7 @@ do
 		echo "Enter target directory:"
 		read target 
 		mkdir $target 
-		mv $orgdir $target 
+		mv -i $orgdir $target 
 		;; 
 		4) echo " "
 		echo "---Deleting a directory---"
