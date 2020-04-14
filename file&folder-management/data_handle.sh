@@ -65,7 +65,7 @@ do
 		echo "Enter target directory:"
 		read target 
 		mkdir $target 
-		cp $orgdir $target 
+		cp -a $orgdir $target 
 		;; 
 		3) echo " "
 		echo "---Moving a directory---"
